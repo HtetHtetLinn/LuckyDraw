@@ -1,0 +1,75 @@
+h3{
+    font-family: "Times New Roman", Times, serif;
+}
+
+.mynav {
+    font-family: "Times New Roman", Times, serif;
+    background-color: rgb(255, 187, 0);
+    border-bottom: 2px solid rgb(255, 187, 0);
+    /* padding: 0; */
+}
+
+.navbar-brand{
+    color: #fff !important;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.mb-4{
+    margin-top: 30px;
+}
+.btn-danger{
+    background: red !important;
+}
+.navbar-nav a {
+    color: #fff !important;
+    padding: 20px;
+}
+
+.navbar-nav a:hover {
+    text-decoration: underline;
+}
+
+.nav-item .active {
+    text-decoration: underline;
+}
+
+.action_icon{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 auto;
+
+}
+.action_link {
+    text-decoration: none !important;
+    font-size: 19px;
+    font-weight: bold;
+    color: #7c6d3d !important;
+}
+
+.action_icon img {
+    width: 100%;
+    padding: 28px;
+}
+.table{
+    margin-top: 100px;
+}
+@media (min-width: 992px){
+    .mynav {
+        padding: 0;
+    }
+    .navbar-nav a:hover {
+        background: #c3dd30;
+        text-decoration: none;
+    }
+    
+    .nav-item .active {
+        background: #c3dd30;
+        text-decoration: none;
+    }
+}
+
+.bg-dark {
+    background: rgb(19, 26, 62) !important;
+}
